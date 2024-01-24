@@ -2,8 +2,8 @@
 def print_factor(x):
 # your code here
    factors=[]
-   for i in range(1,x+1):
-      if x%i==0:
+   for i in range(x+1):
+      if i!=0 and x%(i)==0:
          factors.append(i)
    print(factors)
           
